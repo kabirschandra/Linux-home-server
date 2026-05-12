@@ -1,0 +1,30 @@
+# SMB network share config 
+
+[Shared]
+
+# Shared directory path
+path = /home/<username>/shared
+
+# Visible on network
+browseable = yes
+
+# Allow write access
+writable = yes
+
+# Require authenticated login
+guest ok = no
+
+# Is writable
+read only = no
+
+
+[Media]
+
+# Media storage directory
+path = /home/<username>/media
+
+browseable = yes
+writable = yes
+guest ok = no
+read only = no
+
